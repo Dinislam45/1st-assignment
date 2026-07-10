@@ -294,3 +294,38 @@ hr {
     border: none;
     color: #ffffff;
 }
+
+
+
+/* Footer */
+footer {
+  background: #0b1120;
+  padding: 28px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+ 
+footer .copyright {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+ 
+footer .footer-links {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+ 
+footer .footer-links a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.15s ease;
+}
+ 
+footer .footer-links a:hover {
+  color: #ffffff;
+}
