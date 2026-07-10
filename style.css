@@ -76,12 +76,17 @@ a {
     font-size: 80px;
     color: white;
     text-align: center;
+   
+}
+.conf-thard-headlin-italic{
+    font-style: italic;
 }
 
 .conf-thard-pra {
     color: #aba8a8;
     font-size: 22px;
     text-align: center;
+    
 }
 
 .conf-thard {
@@ -328,4 +333,39 @@ footer .footer-links a {
  
 footer .footer-links a:hover {
   color: #ffffff;
+}
+
+
+/* Why Attend Section */
+.why-attend {
+    background-color: #f2f2f2;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.why-attend h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.reason-box {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.reason-box h3 {
+    color: #1D4ED8;
+    margin-bottom: 10px;
+}
+
+.reason-box p {
+    color: #555555;
+    font-size: 15px;
+    line-height: 1.5;
 }
