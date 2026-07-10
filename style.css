@@ -1,0 +1,72 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+    width: 1551;
+    height: 98;
+    background-color: #FFFFFF;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #575757;
+}
+
+.blue-btn {
+    padding: 8px 18px;
+    background-color: #1D4ED8;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.conf-sec {
+    background-image: url(assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.conf-text , p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.conf-thard-pra{
+    color: #aba8a8;
+    
+}
+.conf-thard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.bg-btn{
+    padding-top: 180px;
+}
