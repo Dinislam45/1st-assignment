@@ -371,14 +371,22 @@ footer .footer-links a {
 footer .footer-links a:hover {
     color: #ffffff;
 }
+
 .left-f {
     display: flex;
-  
+
     align-items: center;
     justify-content: center;
-  
+
 }
-.footer-logo img p{
-    gap: 10px;
+
+.footer-logo  {
+    border: white;
 }
-.
+
+     .copyright {
+        margin-left: 10px;
+     }
+        
+     
+     
